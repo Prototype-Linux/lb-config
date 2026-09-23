@@ -7,7 +7,6 @@ lb config noauto \
    --updates true \
    --memtest none \
    --security true \
-   --backports true \
    --interactive false \
    --apt-recommends true \
    --distribution stable \
