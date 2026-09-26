@@ -13,7 +13,7 @@ lb config noauto \
    --architectures amd64 \
    --iso-volume Prototype \
    --linux-flavours amd64 \
-   --debian-installer live \
+   --debian-installer false \
    --iso-preparer Prototype \
    --image-name "Prototype" \
    --binary-images iso-hybrid \
