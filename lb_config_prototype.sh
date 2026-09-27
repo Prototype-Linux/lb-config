@@ -24,6 +24,6 @@ lb config noauto \
    --archive-areas "main contrib non-free non-free-firmware" \
    --parent-archive-areas "main contrib non-free non-free-firmware" \
    --iso-publisher "Lucas Gabriel (lucmsilva) <lucmsilva651@gmail.com>" \
-   --bootappend-live "boot=live username=protolive hostname=prototype autologin" \
+   --bootappend-live "boot=live username=protolive hostname=prototype autologin quiet splash" \
    "${@}"
 
