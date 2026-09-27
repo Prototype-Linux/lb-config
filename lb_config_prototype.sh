@@ -7,7 +7,6 @@ lb config noauto \
    --updates true \
    --memtest none \
    --security true \
-   --parallel true \
    --interactive false \
    --apt-recommends true \
    --distribution stable \
@@ -18,7 +17,6 @@ lb config noauto \
    --debian-installer false \
    --iso-preparer Prototype \
    --image-name "Prototype" \
-   --binary-compression zstd \
    --binary-images iso-hybrid \
    --iso-application Prototype \
    --debian-installer-gui false \
